@@ -117,6 +117,22 @@
   }
 
   .keep-in-touch{margin:2.75rem 0 0}
+  .cta-top{margin:2rem 0 0}
+
+  .cta-button{
+    display:inline-block;
+    font-family:var(--sans);
+    font-weight:600;
+    font-size:1rem;
+    color:#fff;
+    background:var(--accent);
+    padding:.8rem 1.75rem;
+    border-radius:999px;
+    text-decoration:none;
+    border-bottom:none;
+  }
+  .cta-button:hover{background:#173dad;border-bottom:none}
+  .cta-button:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:999px}
 </style>
 </head>
 <body>
@@ -132,6 +148,8 @@
       </div>
     </div>
   </header>
+
+  <p class="cta-top"><a class="cta-button" href="mailto:ciao@garolla.info">Keep in touch</a></p>
 
   <hr class="rule">
 
@@ -194,7 +212,7 @@
     </div>
   </section>
 
-  <p class="keep-in-touch"><a href="mailto:ciao@garolla.info">Keep in touch</a></p>
+  <p class="keep-in-touch"><a class="cta-button" href="mailto:ciao@garolla.info">Keep in touch</a></p>
 
 </main>
 
