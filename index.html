@@ -110,6 +110,10 @@
   .links a{border-bottom:none}
   .links a:hover{border-bottom:1px solid var(--accent)}
 
+  .work-list{list-style:none;margin:0;padding:0}
+  .work-list li{margin:0 0 .9rem}
+  .work-list li:last-child{margin-bottom:0}
+
   .header-top{display:flex;align-items:center;gap:1.5rem}
   .avatar{width:72px;height:72px;border-radius:50%;object-fit:cover;flex-shrink:0}
   @media (max-width:44rem){
@@ -160,6 +164,20 @@
       <span class="fig">16,000,000</span>
       <span class="fig-note">customers</span>
       <p class="stack">Flink · SQL · BigQuery</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="label">What I work on</div>
+    <div>
+      <ul class="work-list">
+        <li>Streaming and near real-time data pipelines (Flink)</li>
+        <li>Data modelling and SQL at scale (BigQuery, PostgreSQL, Teradata)</li>
+        <li>Core banking platforms on cloud (GCP), migrated off host</li>
+        <li>Large-scale data migrations</li>
+        <li>Batch orchestration and troubleshooting in production</li>
+        <li>RAG pipelines and LLM agents (Python, FastAPI), self-hosted</li>
+      </ul>
     </div>
   </section>
 
@@ -226,13 +244,9 @@
   "jobTitle": "Senior Data Engineer and Tech Lead",
   "description": "Senior data engineer and tech lead building core banking data platforms. Previously iOS, embedded and IoT.",
   "knowsAbout": [
-    "data engineering",
-    "data platforms",
-    "data architecture",
-    "banking data",
     "Apache Flink",
     "BigQuery",
-    "SQL",
+    "data modelling",
     "data migration",
     "RAG pipelines",
     "LLM agents"
